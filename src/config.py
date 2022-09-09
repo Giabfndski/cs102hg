@@ -150,7 +150,7 @@ class ShadowBulletConfig:
     SCALE: float = 0.05
     SPEED: int = 5
     GRAVITY: int = 0.3
-    DAMAGE: int = 1
+    DAMAGE: int = 2
 
     # initial vertical movement
     INIT_DY: int = -15
