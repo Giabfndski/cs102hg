@@ -1,22 +1,13 @@
 # STEAM for Vietnam - CS 102 
 
-Xem ghi chú tóm tắt các bài học: [LINK](https://github.com/STEAMforVietnam/cs102/tree/lesson-notes/notes)
+Final project: Dự án cuối khóa.
+Tên:Trần Vũ Gia Huy
+Email:huytvgfx13213@funix.edu.vn
+Tên gitbub:Giabfndski
 
-## Miêu tả dự án
+cài đặt thư viện ảo venv: bấm python venv steam.venv
+steam.venv\scripts\activate
 
-<TODO: điền thêm thông tin dự án cuối khoá của bạn khi nộp bài>
+Điểm độc đáo của chương trình mình là mình thay đổi csv, backgrounds và hồi máu cho nhân vật,....
 
-## Đường dẫn đến phiên bản cuối mỗi bài học
-
-1. [Crazy Robot](https://github.com/STEAMforVietnam/cs102/tree/ls1/)
-2. [Crazy Robot](https://github.com/STEAMforVietnam/cs102/tree/ls2-5)
-3. Bài học ôn tập Python căn bản
-4. [Thách thức giới hạn](https://github.com/STEAMforVietnam/cs102/tree/ls4-5)
-5. Bài đặc biệt về thiết kế trò chơi và công cụ Figma
-6. [Bí Ẩn STEAM Valley](https://github.com/STEAMforVietnam/cs102/tree/ls6-final)
-7. [Lần theo dấu vết](https://github.com/STEAMforVietnam/cs102/tree/ls7-final)
-8. Bài đặc biệt về thiết kế trò chơi và công cụ Figma
-9. [Tìm kiếm sức mạnh](https://github.com/STEAMforVietnam/cs102/tree/ls9-five)
-10. [Vượt qua đối thủ đáng gờm](https://github.com/STEAMforVietnam/cs102/tree/ls10-four)
-11. [Năng lượng hạnh phúc](https://github.com/STEAMforVietnam/cs102/tree/ls11-final)
-12. [Khúc ca chiến thắng](https://github.com/STEAMforVietnam/cs102/tree/master)
+Mong các bạn tận hưởng dự án của mình!
