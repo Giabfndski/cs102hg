@@ -147,9 +147,9 @@ class ShadowBossConfig:
 
 class ShadowBulletConfig:
     SPRITE_PATH: Path = ASSET_DIR / "items" / "shadow_bullet.png"
-    SCALE: float = 0.05
+    SCALE: float = 0.06
     SPEED: int = 5
-    GRAVITY: int = 0.3
+    GRAVITY: int = 0.4
     DAMAGE: int = 2
 
     # initial vertical movement
