@@ -37,3 +37,5 @@ class PlayerHp(BaseEntity):
         for i in range(self.hp, self.max_hp):
             x += PlayerHpConfig.X_STEP
             self.empty_heart.render(screen, x_y=(x, y))
+
+

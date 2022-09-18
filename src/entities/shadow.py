@@ -36,6 +36,8 @@ class Shadow(AnimatedEntity):
 
         self._handle_get_hit()
 
+
+
     def die(self):
         super().die()
         self.set_remaining_ttl_ms(self.animation_interval_ms * 6)

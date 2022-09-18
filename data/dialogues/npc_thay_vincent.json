@@ -1,0 +1,45 @@
+{
+  "name": "Thầy Vincent",
+  "dialogues": [
+    [
+      {
+        "Subject": "Táy Máy",
+        "Line": "Em chào thầy"
+      },
+      {
+        "Subject": "Thầy Vincent",
+        "Line": "Thầy chào em"
+      },
+      {
+        "Subject": "Táy Máy",
+        "Line": "Dạ em xin nộp dự án của mình ạ."
+      },
+      {
+        "Subject": "Thầy Vincent",
+        "Line": "Ồ, tốt quá, thầy cảm ơn em!"
+      },
+      {
+        "Subject": "Táy Máy",
+        "Line": "THầy thấy bài của em có được không ạ"
+      },
+      {
+        "Subject": "Thầy Vincent",
+        "Line": "Hm.............."
+      },
+      {
+        "Subject": "Thầy Vincent",
+        "Line": "Thầy thấy tạm ổn, em cần bổ sung thêm"
+      },
+      {
+        "Subject": "Táy Máy",
+        "Line": "Dạ em cảm ơn thầy, em chào thầy."
+      },
+      {
+        "Subject": "Thầy Vincent",
+        "Line": "Thầy chào em!"
+      }
+    ]
+  ]
+}
+
+

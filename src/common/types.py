@@ -23,6 +23,9 @@ class EntityType(enum.Enum):
     NPC_CO_NGA = 22
     NPC_CHU_NAM = 23
     NPC_CHU_NHAN = 24
+    NPC_CO_THAO = 42
+    NPC_THAY_TU = 43
+    NPC_THAY_VINCENT = 44
     SHADOW_ALPHA = 25
 
     TRAMPOLINE = 30
@@ -34,6 +37,7 @@ class EntityType(enum.Enum):
     # Collectable Items 60 -> 79
     CANDY = 60
     HEART = 61
+    REVIEW = 62
 
     # When the player collects this item, the level ends.
     # For regular levels (ie. no special end-level condition), when designing the CSV file
@@ -52,13 +56,14 @@ class EntityType(enum.Enum):
 
 
 OBSTACLES_TYPES = (EntityType.GROUND_A, EntityType.GROUND_B)
-FRIENDLY_NPC_TYPES = (EntityType.NPC_CO_NGA, EntityType.NPC_CHU_NAM, EntityType.NPC_CHU_NHAN)
+FRIENDLY_NPC_TYPES = (EntityType.NPC_CO_NGA, EntityType.NPC_CHU_NAM, EntityType.NPC_CHU_NHAN,EntityType.NPC_CO_THAO, EntityType.NPC_THAY_TU, EntityType.NPC_THAY_VINCENT)
 TRAMPOLINE_PART_TYPES = (EntityType.TRAMPOLINE_PART_SPRING, EntityType.TRAMPOLINE_PART_FRAME)
 
 COLLECTABLE_TYPES = (
     EntityType.LEVEL_END_FLAG,
     EntityType.HEART,
     EntityType.CANDY,
+    EntityType.REVIEW,
 ) + TRAMPOLINE_PART_TYPES
 
 FIXED_POSITION_TYPES = (EntityType.DIALOGUE_BOX, EntityType.PLAYER_HP, EntityType.PLAYER_INVENTORY)

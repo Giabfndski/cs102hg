@@ -47,8 +47,8 @@ class GameConfig:
     VICTORY_MUSIC: Path = ASSET_DIR / "sounds" / "background" / "victory.wav"
     BONUS_LEVEL_END_MUSIC: Path = ASSET_DIR / "sounds" / "background" / "victory.wav"
 
-    INGAME_MUSIC_VOLUME: float = 0.05
-    SOUND_EFFECT_VOLUME: float = 0.18
+    INGAME_MUSIC_VOLUME: float = 8
+    SOUND_EFFECT_VOLUME: float = 8
 
 
 class LevelLoadingBarConfig:
@@ -196,6 +196,7 @@ class NpcConfig:
 @dataclass
 class WorldData:
     level_id: int
+
     data: Optional[List] = None
     bg_path: Optional[Path] = None
 
